@@ -7,7 +7,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.test.Test
 
-class YtlpExecutorTest{
+class YtdlpExecutorTest{
     @Test
     fun testProcessBuilder() = runBlocking{
         val savePath = "${System.getProperty("user.home")}\\music\\"
